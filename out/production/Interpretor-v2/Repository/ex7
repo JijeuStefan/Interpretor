@@ -1,0 +1,564 @@
+ExeStack: [ Ref(int) v | new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - Ref(int) v -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - new(v, 20) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) - print(rH(v)) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+ExeStack: [ print(rH(v) + 5) - wH(v, 30) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+ExeStack: [ print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 ,  )
+
+ExeStack: [  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 , 35 ,  )
+
+id: 7
+ExeStack: [ Ref(int) v | new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - Ref(int) v -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - Ref(int) v -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - new(v, 20) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - new(v, 20) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) - print(rH(v)) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) - print(rH(v)) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) - wH(v, 30) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) - wH(v, 30) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 , 35 ,  )
+
+id: 7
+ExeStack: [ Ref(int) v | new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - Ref(int) v -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - Ref(int) v -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - new(v, 20) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - new(v, 20) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) - print(rH(v)) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) - print(rH(v)) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) - wH(v, 30) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) - wH(v, 30) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 , 35 ,  )
+
+id: 7
+ExeStack: [ Ref(int) v | new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - Ref(int) v -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - Ref(int) v -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - new(v, 20) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - new(v, 20) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) - print(rH(v)) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) - print(rH(v)) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) - wH(v, 30) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) - wH(v, 30) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 , 35 ,  )
+
+id: 7
+ExeStack: [ Ref(int) v | new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - Ref(int) v -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - Ref(int) v -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ new(v, 20) | print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - new(v, 20) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) - new(v, 20) -  ]
+SymTable: { v->(0, int),  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ print(rH(v)) | wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) - print(rH(v)) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) - print(rH(v)) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: (  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ wH(v, 30) | print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) - wH(v, 30) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) - wH(v, 30) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->20,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [ print(rH(v) + 5) -  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 ,  )
+
+id: 7
+ExeStack: [  ]
+SymTable: { v->(1, int),  }
+FileTable: {  }
+Heap: { 1->30,  }
+Out: ( 20 , 35 ,  )
+
