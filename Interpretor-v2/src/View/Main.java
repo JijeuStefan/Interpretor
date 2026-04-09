@@ -47,7 +47,7 @@ public class Main {
          //ex 4: string varf;varf="test.in";openRFile(varf);int varc;readFile(varf,varc);
         //      print(varc); readFile(varf,varc);print(varc);closeRFile(varf);
         IStmt ex4 = new CompStmt(new VarDeclStmt("varf",new StringType()),new CompStmt(new AssignStmt("varf",new
-                ValueExp(new StringValue("C:\\Users\\Lenovo\\Documents\\GitHub\\Intepretor-v2\\Interpretor-v2\\src\\View\\test"))),
+                ValueExp(new StringValue("C:\\Users\\Lenovo\\Documents\\GitHub\\Interpretor\\Interpretor-v2\\src\\View\\test"))),
                 new CompStmt(new openRFile(new VarExp("varf")),new CompStmt(new VarDeclStmt("varc",new IntType()),
                         new CompStmt(new readFile(new VarExp("varf"),new VarExp("varc")),new CompStmt(new PrintStmt(new VarExp("varc"))
                                 ,new CompStmt(new readFile(new VarExp("varf"),new VarExp("varc")),new CompStmt(new PrintStmt(new VarExp("varc")),

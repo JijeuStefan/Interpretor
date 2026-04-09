@@ -1,0 +1,322 @@
+id: 8
+ExeStack: [ int v | v=4 | ( WHILE(v > 0) print(v) | v=v - 1); | print(v) -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ v=4 | ( WHILE(v > 0) print(v) | v=v - 1); | print(v) - int v -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ v=4 | ( WHILE(v > 0) print(v) | v=v - 1); | print(v) - int v -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ v=4 | ( WHILE(v > 0) print(v) | v=v - 1); | print(v) -  ]
+SymTable: { v->0,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ v=4 | ( WHILE(v > 0) print(v) | v=v - 1); | print(v) -  ]
+SymTable: { v->0,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ ( WHILE(v > 0) print(v) | v=v - 1); | print(v) - v=4 -  ]
+SymTable: { v->0,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ ( WHILE(v > 0) print(v) | v=v - 1); | print(v) - v=4 -  ]
+SymTable: { v->0,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ ( WHILE(v > 0) print(v) | v=v - 1); | print(v) -  ]
+SymTable: { v->4,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ ( WHILE(v > 0) print(v) | v=v - 1); | print(v) -  ]
+SymTable: { v->4,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); -  ]
+SymTable: { v->4,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); -  ]
+SymTable: { v->4,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - print(v) | v=v - 1 -  ]
+SymTable: { v->4,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - print(v) | v=v - 1 -  ]
+SymTable: { v->4,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 - print(v) -  ]
+SymTable: { v->4,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 - print(v) -  ]
+SymTable: { v->4,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 -  ]
+SymTable: { v->4,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 -  ]
+SymTable: { v->4,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); -  ]
+SymTable: { v->3,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); -  ]
+SymTable: { v->3,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - print(v) | v=v - 1 -  ]
+SymTable: { v->3,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - print(v) | v=v - 1 -  ]
+SymTable: { v->3,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 - print(v) -  ]
+SymTable: { v->3,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 - print(v) -  ]
+SymTable: { v->3,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 -  ]
+SymTable: { v->3,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 -  ]
+SymTable: { v->3,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); -  ]
+SymTable: { v->2,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); -  ]
+SymTable: { v->2,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - print(v) | v=v - 1 -  ]
+SymTable: { v->2,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - print(v) | v=v - 1 -  ]
+SymTable: { v->2,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 - print(v) -  ]
+SymTable: { v->2,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 - print(v) -  ]
+SymTable: { v->2,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 -  ]
+SymTable: { v->2,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 -  ]
+SymTable: { v->2,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); -  ]
+SymTable: { v->1,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); -  ]
+SymTable: { v->1,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - print(v) | v=v - 1 -  ]
+SymTable: { v->1,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - print(v) | v=v - 1 -  ]
+SymTable: { v->1,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 - print(v) -  ]
+SymTable: { v->1,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 - print(v) -  ]
+SymTable: { v->1,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 -  ]
+SymTable: { v->1,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 , 1 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); - v=v - 1 -  ]
+SymTable: { v->1,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 , 1 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); -  ]
+SymTable: { v->0,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 , 1 ,  )
+
+id: 8
+ExeStack: [ print(v) - ( WHILE(v > 0) print(v) | v=v - 1); -  ]
+SymTable: { v->0,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 , 1 ,  )
+
+id: 8
+ExeStack: [ print(v) -  ]
+SymTable: { v->0,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 , 1 ,  )
+
+id: 8
+ExeStack: [ print(v) -  ]
+SymTable: { v->0,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 , 1 ,  )
+
+id: 8
+ExeStack: [  ]
+SymTable: { v->0,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 4 , 3 , 2 , 1 , 0 ,  )
+

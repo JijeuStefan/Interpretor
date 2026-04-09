@@ -42,7 +42,7 @@ public class Repo implements IRepo{
     @Override
     public void logPrgStateExec(PrgState prg) throws MyException{
         try{
-            PrintWriter logFile=new PrintWriter(new BufferedWriter(new FileWriter("C:\\Users\\Lenovo\\Documents\\GitHub\\Intepretor-v2\\Interpretor-v2\\src\\Repository\\"+this.logFilePath,true)));
+            PrintWriter logFile=new PrintWriter(new BufferedWriter(new FileWriter(""+this.logFilePath,true))); // add your repository path here
             logFile.write(prg.toString()+"\n\n");
             logFile.close();
         }catch(IOException e)
@@ -54,7 +54,7 @@ public class Repo implements IRepo{
     @Override
     public void clearFile() throws PrintWException {
         try{
-            PrintWriter logFile = new PrintWriter(new FileWriter("C:\\Users\\Lenovo\\Documents\\GitHub\\Intepretor-v2\\Interpretor-v2\\src\\Repository\\"+this.logFilePath));
+            PrintWriter logFile = new PrintWriter(new FileWriter(""+this.logFilePath)); // add your repository path here
             logFile.close();
         }catch(IOException e)
         {

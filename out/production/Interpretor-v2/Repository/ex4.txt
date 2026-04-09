@@ -1,0 +1,308 @@
+id: 1
+ExeStack: [ string varf | varf=C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test | open(varf) | int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ varf=C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test | open(varf) | int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) - string varf -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ varf=C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test | open(varf) | int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) - string varf -  ]
+SymTable: {  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ varf=C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test | open(varf) | int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ varf=C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test | open(varf) | int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ open(varf) | int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) - varf=C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test -  ]
+SymTable: { varf->,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ open(varf) | int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) - varf=C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test -  ]
+SymTable: { varf->,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ open(varf) | int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ open(varf) | int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) - open(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) - open(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test,  }
+FileTable: {  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ int varc | readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->0,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->0,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->0,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ readFile(varf,varc) | print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->0,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->10,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->10,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->10,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->10,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->10,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ print(varc) | readFile(varf,varc) | print(varc) | close(varf) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->10,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: (  )
+
+id: 1
+ExeStack: [ print(varc) | close(varf) - readFile(varf,varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->10,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [ print(varc) | close(varf) - readFile(varf,varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->10,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [ print(varc) | close(varf) - readFile(varf,varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->10,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [ print(varc) | close(varf) - readFile(varf,varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->10,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [ print(varc) | close(varf) - readFile(varf,varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->10,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [ print(varc) | close(varf) - readFile(varf,varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->10,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [ close(varf) - print(varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->50,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [ close(varf) - print(varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->50,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [ close(varf) - print(varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->50,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [ close(varf) - print(varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->50,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [ close(varf) - print(varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->50,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [ close(varf) - print(varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->50,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [ close(varf) - print(varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->50,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [ close(varf) - print(varc) -  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->50,  }
+FileTable: { C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test->java.io.BufferedReader@241f3ce6,  }
+Heap: {  }
+Out: ( 10 ,  )
+
+id: 1
+ExeStack: [  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->50,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 10 , 50 ,  )
+
+id: 1
+ExeStack: [  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->50,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 10 , 50 ,  )
+
+id: 1
+ExeStack: [  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->50,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 10 , 50 ,  )
+
+id: 1
+ExeStack: [  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->50,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 10 , 50 ,  )
+
+id: 1
+ExeStack: [  ]
+SymTable: { varf->C:\Users\Lenovo\Documents\GitHub\Intepretor-v2\Interpretor-v2\src\View\test, varc->50,  }
+FileTable: {  }
+Heap: {  }
+Out: ( 10 , 50 ,  )
+
