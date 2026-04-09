@@ -1,4 +1,4 @@
-# 🧠 Toy Language Interpreter (Java)
+# Toy Language Interpreter (Java)
 
 ## 📋 Description
 
@@ -10,9 +10,10 @@ It provides a step-by-step execution model, allowing visualization of how progra
 
 ## 🎬 Demo
 
-### 🖥️ Interpretor Demo (Recipe Search)
+### 🔹 While Statement Demo
 ![While Statement Demo](./assets/WhileDemo.gif)
 
+### 🔹 Heap Reading and Writing Demo
 ![Heap Reading and Writing Demo](./assets/HeapAllocDemo.gif)
 
 ## ✨ Features
